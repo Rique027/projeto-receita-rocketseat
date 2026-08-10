@@ -1,23 +1,37 @@
+:root {
+  line-height: 150%;
+
+}
 body {
-  background-image: url(./assets/bg-mobile.jpg);
+
+  background-image: url("assets/paginareceita.jpg");
   background-size: cover;
-  background-position: center;
 }
-#container {
-  width: 360px;
-  margin: auto;
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin:  auto;
 }
-#profile img {
-  width: 112px;
-  margin-top: 50px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
+
+h1 {
+  font-size: 40px;
 }
-#profile p {
+p {
+  font-size: 20px;
+}
+ul{
+  font-size: 20px;
+}
+
+footer {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
-  margin-top: 20px;
+}
+footer img {
+  vertical-align: middle;
 }
